@@ -41,6 +41,9 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           SERVERCHAN_KEYS: ${{ secrets.SERVERCHAN_KEY }},${{ secrets.SERVERCHAN_KEY2 }},${{ secrets.SERVERCHAN_KEY3 }}
+          EMAIL: ${{ secrets.EMAIL }}
+          SMTP_CODE: ${{ secrets.SMTP_CODE }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
         run: |
           python3 ./index.py
           python3 ./markdown.py >> $GITHUB_STEP_SUMMARY
@@ -48,10 +51,6 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: echo "changes=$(git diff --shortstat HEAD)" >> $GITHUB_OUTPUT
-
-      - name: Get last commit message
-        id: commit_message
-        run: echo "last_commit_message=$(git log -1 --pretty=%B)" >> $GITHUB_OUTPUT
 
       - name: Push changes
         if: ${{ steps.check_changes.outputs.changes != '' && !startsWith(steps.commit_message.outputs.last_commit_message, 'Updated at ') }}
