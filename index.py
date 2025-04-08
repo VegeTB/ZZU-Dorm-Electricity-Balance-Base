@@ -96,8 +96,8 @@ class NotificationManager:
             msg = MIMEText(content, 'plain', 'utf-8')
 
             msg['Subject'] = title
-            msg['From'] = EMAIL
-            msg['To'] = EMAIL
+            msg['From'] = MAIL
+            msg['To'] = MAIL
 
             try:
                 client = smtplib.SMTP_SSL(SMTP_SERVER, smtplib.SMTP_SSL_PORT)
