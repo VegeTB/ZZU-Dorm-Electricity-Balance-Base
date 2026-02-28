@@ -1,90 +1,5 @@
 [
     {
-        "time": "01-20 12:51:05",
-        "lt_Balance": 20.59,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-20 18:35:26",
-        "lt_Balance": 19.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-21 00:42:19",
-        "lt_Balance": 18.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-21 12:50:10",
-        "lt_Balance": 15.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-21 18:36:30",
-        "lt_Balance": 14.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-21 21:50:34",
-        "lt_Balance": 13.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-22 01:03:10",
-        "lt_Balance": 12.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-22 12:53:10",
-        "lt_Balance": 11.39,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-22 15:33:51",
-        "lt_Balance": 10.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-22 18:35:08",
-        "lt_Balance": 10.39,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-22 21:51:08",
-        "lt_Balance": 9.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-23 00:42:07",
-        "lt_Balance": 8.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-23 12:49:11",
-        "lt_Balance": 7.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-23 18:32:25",
-        "lt_Balance": 7.29,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-23 21:47:37",
-        "lt_Balance": 6.69,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-24 00:38:16",
-        "lt_Balance": 6.29,
-        "ac_Balance": 82.78
-    },
-    {
-        "time": "01-24 12:39:21",
-        "lt_Balance": 5.29,
-        "ac_Balance": 82.78
-    },
-    {
         "time": "02-26 01:13:03",
         "lt_Balance": 35.89,
         "ac_Balance": 82.78
@@ -147,6 +62,11 @@
     {
         "time": "02-28 21:39:56",
         "lt_Balance": 195.29,
+        "ac_Balance": 82.78
+    },
+    {
+        "time": "03-01 00:34:08",
+        "lt_Balance": 194.29,
         "ac_Balance": 82.78
     }
 ]
